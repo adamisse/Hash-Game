@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1{
+    text-align: center;
+    color:  #dddddd;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+body{
+    background-color:  rgb(155, 155, 155);
+}
+
+#container{
+    margin: 0 auto;
+    width: 400px;
+    height: 440px;
+    text-align: center;
+    padding: 17px;
+    border: solid 1px  rgb(155, 155, 155);
+    border-radius: 3px;
+}
+
+button:focus {
+    outline:0;
+}
+
+.botao{
+    display: block;
+    float: left;
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    padding: 5px 5px;
+    margin-left: 0;
+    color:  rgb(155, 155, 155);
+    border-right: 1px solid rgb(155, 155, 155);
+    border-bottom: 1px solid  rgb(155, 155, 155);
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pos2, #pos5, #pos8{
+    border-right: none;
+}
+#pos6, #pos7, #pos8{
+    border-bottom: none;
+}
+#iniciar{
+    margin-top: 30px;
+    text-align: center;
+}
+#jogador{
+    color: #dddddd;
+    position: relative;
+    left: -400px;
+}
+#placarCpu{
+    color: #dddddd;
+    position: absolute;
+    left: 1100px;
+    text-align: left;
+}
+#placarJogador{
+    color: #dddddd;
+    position: absolute;
+    left: 1100px;
+    text-align: left;
+}
